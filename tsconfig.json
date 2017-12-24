@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "target": "es6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "rootDirs": [
+      "./src"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts",
+    "**/*.spec.tsx",
+    "**/*.spec.ts",
+    "src/stories"
+  ]
+}

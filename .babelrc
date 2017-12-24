@@ -1,0 +1,26 @@
+{
+  "presets": ["env", "stage-0", "react"],
+  "plugins": [
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }],
+    [
+      "import", {
+      "libraryName": "antd",
+      "style": true
+    }]
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        [
+          "babel-plugin-transform-require-ignore",
+          {
+            "extensions": [".less", ".sass"]
+          }
+        ]
+      ]
+    }
+  }
+}

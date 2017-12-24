@@ -1,0 +1,45 @@
+{
+  "name": "my-own",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-import": "^1.6.3",
+    "babel-preset-react-app": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-enzyme": "^4.0.1",
+    "react": "^16.2.0",
+    "react-app-rewire-less": "^2.1.0",
+    "react-app-rewire-typescript": "^2.0.2",
+    "react-app-rewired": "^1.4.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-scripts": "https://github.com/wapgear/react-scripts-custom-jest.git",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.0",
+    "ts-jest": "^22.0.0",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
+    "types": "^0.1.1",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.19",
+    "@storybook/addon-links": "^3.2.19",
+    "@storybook/react": "^3.2.19",
+    "copyfiles": "^1.2.0",
+    "less": "^2.7.3",
+    "lessc-each": "^1.1.0",
+    "npm-run-all": "^4.1.2",
+    "redux-devtools": "^3.4.1",
+    "tslint-eslint-rules": "^4.1.1",
+    "tslint-react-recommended": "^1.0.15"
+  }
+}
